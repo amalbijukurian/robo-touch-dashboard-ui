@@ -44,6 +44,14 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -66,7 +74,19 @@ export default {
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
+				sm: 'calc(var(--radius) - 4px)',
+				'xl': '1rem',
+				'2xl': '1.5rem',
+				'3xl': '2rem'
+			},
+			boxShadow: {
+				'neu': 'var(--shadow-neu-light)',
+				'neu-inset': 'var(--shadow-neu-inset)',
+				'neu-pressed': 'var(--shadow-neu-pressed)'
+			},
+			spacing: {
+				'touch': 'var(--touch-target)',
+				'touch-lg': 'var(--touch-target-large)'
 			},
 			keyframes: {
 				'accordion-down': {
